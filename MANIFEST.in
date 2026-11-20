@@ -5,4 +5,5 @@ prune docs/_build
 graft tests
 include src/markupsafe/py.typed
 include src/markupsafe/*.pyi
+include src/markupsafe/_speedup.c
 global-exclude *.pyc
