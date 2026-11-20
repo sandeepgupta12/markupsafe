@@ -9,7 +9,7 @@ from setuptools.errors import CCompilerError
 from setuptools.errors import ExecError
 from setuptools.errors import PlatformError
 
-ext_modules = [Extension("markupsafe._speedups", ["src/markupsafe/_speedups.c"])]
+ext_modules = [Extension("markupsafe._speedups", ["src/markupsafe/_speedup.c"])]
 
 
 class BuildFailed(Exception):
